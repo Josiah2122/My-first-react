@@ -1,0 +1,46 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+ background: black;
+ color: white;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-img{
+ width: 50px;
+}
+.nav-bar{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ box-shadow: 0px 2px 10px grey;
+ padding: 10px;
+}
+.nav-items{
+ list-style: none;
+ display: flex;
+ justify-content: flex-end;
+}
+.nav-items > li{
+ margin-left: 20px;
+}
+.my-footer{
+ width: 100%;
+ padding: 10px;
+ text-align: center;
+ background: grey;
+ position: fixed;
+ bottom: 0;
+}
+.my-title{
+ margin: 10px;
+ text-align: center;
+}
+.my-list{
+ margin: 20px;
+}
+.my-list > li{
+ margin-bottom: 10px;
+ margin-left: 30px;
+}
